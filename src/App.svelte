@@ -111,6 +111,13 @@
 		align-items: center;
 		margin-bottom: 30px;
 	}
+	@media screen and (max-width: 900px) {
+
+    .todo{
+		width: 80%;
+	}
+
+}
 
 	h1 {
 		font-size: 3rem;
