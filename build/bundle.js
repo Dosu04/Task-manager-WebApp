@@ -430,7 +430,7 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (189:6) {#if todo.status=='pending'}
+    // (190:6) {#if todo.status=='pending'}
     function create_if_block_3(ctx) {
     	let div1;
     	let div0;
@@ -457,12 +457,12 @@ var app = (function () {
     			button = element("button");
     			t2 = text("✔");
     			t3 = space();
-    			attr_dev(div0, "class", "svelte-gyjtjx");
-    			add_location(div0, file, 190, 8, 3131);
-    			attr_dev(button, "class", button_class_value = "" + (null_to_empty(/*todo*/ ctx[14].status == 'completed' ? 'active' : '') + " svelte-gyjtjx"));
-    			add_location(button, file, 193, 8, 3181);
-    			attr_dev(div1, "class", "task svelte-gyjtjx");
-    			add_location(div1, file, 189, 7, 3104);
+    			attr_dev(div0, "class", "svelte-1cp7rff");
+    			add_location(div0, file, 191, 8, 3149);
+    			attr_dev(button, "class", button_class_value = "" + (null_to_empty(/*todo*/ ctx[14].status == 'completed' ? 'active' : '') + " svelte-1cp7rff"));
+    			add_location(button, file, 194, 8, 3199);
+    			attr_dev(div1, "class", "task svelte-1cp7rff");
+    			add_location(div1, file, 190, 7, 3122);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div1, anchor);
@@ -482,7 +482,7 @@ var app = (function () {
     			ctx = new_ctx;
     			if (dirty & /*todos*/ 1 && t0_value !== (t0_value = /*todo*/ ctx[14].task + "")) set_data_dev(t0, t0_value);
 
-    			if (dirty & /*todos*/ 1 && button_class_value !== (button_class_value = "" + (null_to_empty(/*todo*/ ctx[14].status == 'completed' ? 'active' : '') + " svelte-gyjtjx"))) {
+    			if (dirty & /*todos*/ 1 && button_class_value !== (button_class_value = "" + (null_to_empty(/*todo*/ ctx[14].status == 'completed' ? 'active' : '') + " svelte-1cp7rff"))) {
     				attr_dev(button, "class", button_class_value);
     			}
     		},
@@ -497,14 +497,14 @@ var app = (function () {
     		block,
     		id: create_if_block_3.name,
     		type: "if",
-    		source: "(189:6) {#if todo.status=='pending'}",
+    		source: "(190:6) {#if todo.status=='pending'}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (177:35) 
+    // (178:35) 
     function create_if_block_1(ctx) {
     	let if_block_anchor;
     	let if_block = /*todo*/ ctx[14].status == 'completed' && create_if_block_2(ctx);
@@ -542,14 +542,14 @@ var app = (function () {
     		block,
     		id: create_if_block_1.name,
     		type: "if",
-    		source: "(177:35) ",
+    		source: "(178:35) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (165:5) {#if filter=='all'}
+    // (166:5) {#if filter=='all'}
     function create_if_block(ctx) {
     	let div1;
     	let div0;
@@ -585,14 +585,14 @@ var app = (function () {
     			button1 = element("button");
     			button1.textContent = "✖";
     			t5 = space();
-    			attr_dev(div0, "class", "svelte-gyjtjx");
-    			add_location(div0, file, 166, 7, 2526);
-    			attr_dev(button0, "class", button0_class_value = "" + (null_to_empty(/*todo*/ ctx[14].status == 'completed' ? 'active' : '') + " svelte-gyjtjx"));
-    			add_location(button0, file, 169, 7, 2573);
-    			attr_dev(button1, "class", "svelte-gyjtjx");
-    			add_location(button1, file, 172, 7, 2703);
-    			attr_dev(div1, "class", "task svelte-gyjtjx");
-    			add_location(div1, file, 165, 6, 2500);
+    			attr_dev(div0, "class", "svelte-1cp7rff");
+    			add_location(div0, file, 167, 7, 2544);
+    			attr_dev(button0, "class", button0_class_value = "" + (null_to_empty(/*todo*/ ctx[14].status == 'completed' ? 'active' : '') + " svelte-1cp7rff"));
+    			add_location(button0, file, 170, 7, 2591);
+    			attr_dev(button1, "class", "svelte-1cp7rff");
+    			add_location(button1, file, 173, 7, 2721);
+    			attr_dev(div1, "class", "task svelte-1cp7rff");
+    			add_location(div1, file, 166, 6, 2518);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div1, anchor);
@@ -618,7 +618,7 @@ var app = (function () {
     			ctx = new_ctx;
     			if (dirty & /*todos*/ 1 && t0_value !== (t0_value = /*todo*/ ctx[14].task + "")) set_data_dev(t0, t0_value);
 
-    			if (dirty & /*todos*/ 1 && button0_class_value !== (button0_class_value = "" + (null_to_empty(/*todo*/ ctx[14].status == 'completed' ? 'active' : '') + " svelte-gyjtjx"))) {
+    			if (dirty & /*todos*/ 1 && button0_class_value !== (button0_class_value = "" + (null_to_empty(/*todo*/ ctx[14].status == 'completed' ? 'active' : '') + " svelte-1cp7rff"))) {
     				attr_dev(button0, "class", button0_class_value);
     			}
     		},
@@ -633,14 +633,14 @@ var app = (function () {
     		block,
     		id: create_if_block.name,
     		type: "if",
-    		source: "(165:5) {#if filter=='all'}",
+    		source: "(166:5) {#if filter=='all'}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (178:6) {#if todo.status=='completed'}
+    // (179:6) {#if todo.status=='completed'}
     function create_if_block_2(ctx) {
     	let div1;
     	let div0;
@@ -665,12 +665,12 @@ var app = (function () {
     			button = element("button");
     			button.textContent = "✖";
     			t3 = space();
-    			attr_dev(div0, "class", "svelte-gyjtjx");
-    			add_location(div0, file, 179, 8, 2897);
-    			attr_dev(button, "class", "svelte-gyjtjx");
-    			add_location(button, file, 182, 8, 2947);
-    			attr_dev(div1, "class", "task svelte-gyjtjx");
-    			add_location(div1, file, 178, 7, 2870);
+    			attr_dev(div0, "class", "svelte-1cp7rff");
+    			add_location(div0, file, 180, 8, 2915);
+    			attr_dev(button, "class", "svelte-1cp7rff");
+    			add_location(button, file, 183, 8, 2965);
+    			attr_dev(div1, "class", "task svelte-1cp7rff");
+    			add_location(div1, file, 179, 7, 2888);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div1, anchor);
@@ -700,14 +700,14 @@ var app = (function () {
     		block,
     		id: create_if_block_2.name,
     		type: "if",
-    		source: "(178:6) {#if todo.status=='completed'}",
+    		source: "(179:6) {#if todo.status=='completed'}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (164:4) {#each todos as todo, i}
+    // (165:4) {#each todos as todo, i}
     function create_each_block(ctx) {
     	let if_block_anchor;
 
@@ -755,7 +755,7 @@ var app = (function () {
     		block,
     		id: create_each_block.name,
     		type: "each",
-    		source: "(164:4) {#each todos as todo, i}",
+    		source: "(165:4) {#each todos as todo, i}",
     		ctx
     	});
 
@@ -853,46 +853,46 @@ var app = (function () {
     			t17 = text(" by ");
     			a1 = element("a");
     			a1.textContent = "Emmanuel Oladosu";
-    			attr_dev(h1, "class", "svelte-gyjtjx");
-    			add_location(h1, file, 153, 9, 2165);
-    			attr_dev(h4, "class", "svelte-gyjtjx");
-    			add_location(h4, file, 153, 31, 2187);
-    			attr_dev(header, "class", "svelte-gyjtjx");
-    			add_location(header, file, 153, 1, 2157);
+    			attr_dev(h1, "class", "svelte-1cp7rff");
+    			add_location(h1, file, 154, 9, 2183);
+    			attr_dev(h4, "class", "svelte-1cp7rff");
+    			add_location(h4, file, 154, 31, 2205);
+    			attr_dev(header, "class", "svelte-1cp7rff");
+    			add_location(header, file, 154, 1, 2175);
     			attr_dev(input, "type", "text");
-    			attr_dev(input, "class", "svelte-gyjtjx");
-    			add_location(input, file, 157, 4, 2313);
-    			attr_dev(button0, "class", "svelte-gyjtjx");
-    			add_location(button0, file, 158, 4, 2356);
-    			attr_dev(div0, "class", "form svelte-gyjtjx");
-    			add_location(div0, file, 156, 3, 2290);
-    			attr_dev(div1, "class", "tasks svelte-gyjtjx");
-    			add_location(div1, file, 162, 3, 2420);
-    			attr_dev(button1, "class", button1_class_value = "" + (null_to_empty(/*filter*/ ctx[2] == 'all' ? 'active' : '') + " svelte-gyjtjx"));
-    			add_location(button1, file, 202, 4, 3394);
-    			attr_dev(button2, "class", button2_class_value = "" + (null_to_empty(/*filter*/ ctx[2] == 'completed' ? 'active' : '') + " svelte-gyjtjx"));
-    			add_location(button2, file, 205, 4, 3496);
-    			attr_dev(button3, "class", button3_class_value = "" + (null_to_empty(/*filter*/ ctx[2] == 'incomplete' ? 'active' : '') + " svelte-gyjtjx"));
-    			add_location(button3, file, 208, 4, 3616);
-    			attr_dev(div2, "class", "filters svelte-gyjtjx");
-    			add_location(div2, file, 201, 3, 3368);
-    			attr_dev(div3, "class", "todo svelte-gyjtjx");
-    			add_location(div3, file, 155, 2, 2268);
-    			attr_dev(div4, "class", "container svelte-gyjtjx");
-    			add_location(div4, file, 154, 1, 2242);
+    			attr_dev(input, "class", "svelte-1cp7rff");
+    			add_location(input, file, 158, 4, 2331);
+    			attr_dev(button0, "class", "svelte-1cp7rff");
+    			add_location(button0, file, 159, 4, 2374);
+    			attr_dev(div0, "class", "form svelte-1cp7rff");
+    			add_location(div0, file, 157, 3, 2308);
+    			attr_dev(div1, "class", "tasks svelte-1cp7rff");
+    			add_location(div1, file, 163, 3, 2438);
+    			attr_dev(button1, "class", button1_class_value = "" + (null_to_empty(/*filter*/ ctx[2] == 'all' ? 'active' : '') + " svelte-1cp7rff"));
+    			add_location(button1, file, 203, 4, 3412);
+    			attr_dev(button2, "class", button2_class_value = "" + (null_to_empty(/*filter*/ ctx[2] == 'completed' ? 'active' : '') + " svelte-1cp7rff"));
+    			add_location(button2, file, 206, 4, 3514);
+    			attr_dev(button3, "class", button3_class_value = "" + (null_to_empty(/*filter*/ ctx[2] == 'incomplete' ? 'active' : '') + " svelte-1cp7rff"));
+    			add_location(button3, file, 209, 4, 3634);
+    			attr_dev(div2, "class", "filters svelte-1cp7rff");
+    			add_location(div2, file, 202, 3, 3386);
+    			attr_dev(div3, "class", "todo svelte-1cp7rff");
+    			add_location(div3, file, 156, 2, 2286);
+    			attr_dev(div4, "class", "container svelte-1cp7rff");
+    			add_location(div4, file, 155, 1, 2260);
     			attr_dev(a0, "href", "https://svelte.dev/");
-    			attr_dev(a0, "class", "svelte-gyjtjx");
-    			add_location(a0, file, 216, 12, 3790);
+    			attr_dev(a0, "class", "svelte-1cp7rff");
+    			add_location(a0, file, 217, 12, 3808);
     			if (!src_url_equal(img.src, img_src_value = "https://th.bing.com/th/id/R.02f9ec2d33cc2727b182b07e53a35773?rik=sB8nh4ElbxLn7g&pid=ImgRaw&r=0")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "");
-    			attr_dev(img, "class", "svelte-gyjtjx");
-    			add_location(img, file, 216, 58, 3836);
+    			attr_dev(img, "class", "svelte-1cp7rff");
+    			add_location(img, file, 217, 58, 3854);
     			attr_dev(a1, "href", "https://emmanueloladosu.com/");
-    			attr_dev(a1, "class", "svelte-gyjtjx");
-    			add_location(a1, file, 216, 175, 3953);
-    			add_location(p, file, 215, 2, 3774);
-    			attr_dev(footer, "class", "svelte-gyjtjx");
-    			add_location(footer, file, 214, 1, 3763);
+    			attr_dev(a1, "class", "svelte-1cp7rff");
+    			add_location(a1, file, 217, 175, 3971);
+    			add_location(p, file, 216, 2, 3792);
+    			attr_dev(footer, "class", "svelte-1cp7rff");
+    			add_location(footer, file, 215, 1, 3781);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -980,15 +980,15 @@ var app = (function () {
     				each_blocks.length = each_value.length;
     			}
 
-    			if (dirty & /*filter*/ 4 && button1_class_value !== (button1_class_value = "" + (null_to_empty(/*filter*/ ctx[2] == 'all' ? 'active' : '') + " svelte-gyjtjx"))) {
+    			if (dirty & /*filter*/ 4 && button1_class_value !== (button1_class_value = "" + (null_to_empty(/*filter*/ ctx[2] == 'all' ? 'active' : '') + " svelte-1cp7rff"))) {
     				attr_dev(button1, "class", button1_class_value);
     			}
 
-    			if (dirty & /*filter*/ 4 && button2_class_value !== (button2_class_value = "" + (null_to_empty(/*filter*/ ctx[2] == 'completed' ? 'active' : '') + " svelte-gyjtjx"))) {
+    			if (dirty & /*filter*/ 4 && button2_class_value !== (button2_class_value = "" + (null_to_empty(/*filter*/ ctx[2] == 'completed' ? 'active' : '') + " svelte-1cp7rff"))) {
     				attr_dev(button2, "class", button2_class_value);
     			}
 
-    			if (dirty & /*filter*/ 4 && button3_class_value !== (button3_class_value = "" + (null_to_empty(/*filter*/ ctx[2] == 'incomplete' ? 'active' : '') + " svelte-gyjtjx"))) {
+    			if (dirty & /*filter*/ 4 && button3_class_value !== (button3_class_value = "" + (null_to_empty(/*filter*/ ctx[2] == 'incomplete' ? 'active' : '') + " svelte-1cp7rff"))) {
     				attr_dev(button3, "class", button3_class_value);
     			}
     		},
