@@ -29,10 +29,11 @@
 	}
 	
 	.todo {
-		width: 85%;
+		width: 18rem;
 		border: 2px solid black;
 		border-radius: 5px;
 		padding: 20px;
+		margin: 4rem;
 	}
 	
 	.form {
@@ -112,12 +113,12 @@
 	}
 
 	h1 {
-		font-size: 36px;
+		font-size: 3rem;
 		margin: 0;
 	}
 
 	h4 {
-		font-size: 16px;
+		font-size: 1rem;
 		font-weight: normal;
 		margin: 0;
 		color: #999;
