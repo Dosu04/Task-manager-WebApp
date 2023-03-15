@@ -20,6 +20,7 @@
 	</script>
 	
 	<style>
+		
 		.container {
 		display: flex;
 		flex-direction: column;
@@ -28,7 +29,7 @@
 	}
 	
 	.todo {
-		width: 500px;
+		width: 85%;
 		border: 2px solid black;
 		border-radius: 5px;
 		padding: 20px;
@@ -213,7 +214,7 @@
 	</div>
 	<footer>
 		<p>
-		Made with <a href=""> Svelte.js</a>  <img src="https://th.bing.com/th/id/R.02f9ec2d33cc2727b182b07e53a35773?rik=sB8nh4ElbxLn7g&pid=ImgRaw&r=0" alt=""> by <a href=""> Emmanuel Oladosu</a> 
+		Made with <a href="https://svelte.dev/"> Svelte.js</a>  <img src="https://th.bing.com/th/id/R.02f9ec2d33cc2727b182b07e53a35773?rik=sB8nh4ElbxLn7g&pid=ImgRaw&r=0" alt=""> by <a href="https://emmanueloladosu.com/"> Emmanuel Oladosu</a> 
 
 		</p>
 	</footer>
